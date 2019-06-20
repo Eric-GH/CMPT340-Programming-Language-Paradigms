@@ -1,0 +1,46 @@
+Name: Hao Li	NSID: hal356	Student#: 11153054	CMPT 340 A1
+
+Question1:
+
+a) swap (x, y) = (y, x)
+
+   if x is type t1 and y is type t2, then the function will be the type (t2, t1)
+   
+   swap :: (t1,t2) -> (t2, t1)
+   swap (x, y) = (y, x)
+
+
+
+b) pair x y = (x, y)
+
+   if x is type t1 and y is type t2, then the function will be the type (t1, t2)
+
+   pair :: t1 -> t2 -> (t1, t2)
+   pair x y = (x, y)
+
+
+c) double x = x*2
+
+   From the function, we assume that the x should be the numeric type, if the x is 
+   type numeric type t1, then the function should also be the numeric type t1
+
+   double :: Num t1 => t1 -> t1
+   double x = x*2
+
+
+d) twice f x = f(f(x))
+
+   From the function, we can assume it is a function f take x as a single argument with
+   any type (such as type t1), and x will has the same type with function f, and the 
+   function will return the same type (t1)
+
+   twice :: (t1 -> t1) -> t1 -> t1
+   twice f x = f(f(x))
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Name: Hao Li	NSID: hal356	Student#: 11153054	CMPT 340 A1
+
+Problem 5
+
+b) The lambda expression is application first, it can be showing by:
+
+   \f.\g.\h.\x.(f(g(h x)))

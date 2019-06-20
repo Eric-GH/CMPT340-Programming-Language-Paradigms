@@ -1,0 +1,16 @@
+Name: Hao Li	Student#: 11153054	NSID: hal356	CMPT340 A2
+
+Part1 Problem 1:
+
+or false (not true)
+= \v.\w.(v v w) false (not true)
+= false false (not true)
+= \x.\y.(y) false (not true)
+= not true
+= \v.\w.\x.(v x w) true
+= \w.\x.(true x w)
+= \w.\x.(\a.\b.(a) x w)
+= \w.\x.(\b.(x) w)
+= \w.\x.(x)
+= \x.\y.(y)
+= false
